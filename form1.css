@@ -25,34 +25,81 @@ li a {
 li a:hover {
   background-color: #111111;
 }
+.heading {
+  text-align: center;
+    font-size: 30px;
+}
 
 .main {
   position: relative;
   width: 70%;
   left: 15%;
-  height: 500px;
-  top: 100px;
+  height: 750px;
   background-color: white;
+  top: 3px;
 }
 
 .fieldHeading{
   padding: 15px;
   text-align: center;
-
-
 }
-
-
 
 
 .field {
-  padding: 15px;
-  
+  padding: 15px;  
 }
 
-.fieldLabel{
+.fieldLabel {
   display: inline-block;
   width: 40%;
   font-weight: bold;
   text-align: right;
 }
+
+.heading1
+{
+  padding-top: 20px;
+  margin: -84px 0 0 6px;
+}
+.field1
+{
+  display: inline-block;
+  width: 40%;
+  margin-left: 278px;
+}
+.heading2
+{
+  padding-top: 20px;
+  margin: 65px 0 0 6px; 
+}
+.field5
+{
+  display: inline-block;
+  width: 40%;
+  margin-left: 281px;
+  margin-top: 75px;
+  position: absolute;
+}
+
+.heading3
+{
+  top: 499px;
+  position: absolute;
+}
+.MsgBox
+{
+  display: inline-block;
+  width: 40%;
+  margin-left: 262px;
+  margin-top: 75px;
+}
+.Btn {
+  width:100px;	
+  height:30px;
+  background-color:#06F;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  border-bottom:3px solid #036;
+  margin: 65px 0 0 256px;
+  }
