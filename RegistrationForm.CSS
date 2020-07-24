@@ -1,26 +1,29 @@
-.MainDiv {
-  width: 700px;
-  height: 900px;
+body {
   background-color: #4F4F8D;
-  margin-left: 150px;
 }
-.NavBar {
-  width: 700px;
-  height: 50px;
-  background-color: #000000;
-}
-.Heading {
-  text-align: center;
-  font-size: 20px;
-  color: #ffffff;
-}
-.Main {
+
+.main {
   position: relative;
-  width: 80%;
-  left: 10%;
-  height: 750px;
-  background-color: #282948;
-  top: 5px;
+  width: 70%;
+  left: 15%;
+  top: 10%;
+  background-color: #272847;
+
 }
 
+.field {
+  padding: 10px;
+  left:  20%;
+  border: 2 solid yellow;
+}
 
+.fieldLabel {
+  color: white;
+  display: block;
+}
+
+.field-ul {
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0px;
+}

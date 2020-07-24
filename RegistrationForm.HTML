@@ -1,20 +1,126 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Registration Form</title>
-<link rel="stylesheet" href="RegistrationForm.CSS">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="RegistrationForm.CSS">
 </head>
+
 <body>
-
-<div class="MainDiv">
     <div class="NavBar"></div>
-     <div class="Heading"><h5>Thank you for taking the time to help us improve the platform</h5></div>
 
-      <div class="Main"></div>
+    <div class="Heading">
+        <h5>Thank you for taking the time to help us improve the platform</h5>
+    </div>
+    <div class="main">
+
+        <div class="field">
+            <lable class="fieldLabel">
+                Name:
+            </lable>
+            <input type="text">
+        </div>
+        <div class="field">
+            <lable class="fieldLabel">
+                Email:
+            </lable>
+            <input type="text">
+        </div>
+        <div class="field">
+            <lable class="fieldLabel">
+                Age:
+            </lable>
+            <input type="text">
+        </div>
+        <div class="field">
+            <lable class="fieldLabel">
+                which option best describes your current role:
+            </lable>
+           <select name="ddlRole" id="ddlRole">
+               <option value="1">Doctor</option>
+               <option value="2">Teacher</option>
+               <option value="3">Driver</option>
+               <option value="4">Developer</option>
+           </select>
+        </div>
+        <div class="field">
+            <lable class="fieldLabel">
+                would you recommend free code camp to a friend:
+            </lable>
+            <ul class="field-ul">
+                <li>
+                    <input type="radio" id="rdDefinitely">
+                    <label for="rdDefinitely">Definitely</label>
+                </li>
+                <li>
+                    <input type="radio" id="rdMaybe">
+                    <label for="rdMaybe">May Be</label>
+                </li>
+                <li>
+                    <input type="radio" id="rdnotsure">
+                    <label for="rdnotsure">Not Sure</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="field">
+            <lable class="fieldLabel">
+                What would you like to see improved:
+            </lable>
+            <ul class="field-ul">
+                <li>
+                    <input type="checkbox" id="chk1">
+                    <label for="chk1">Fron-end Project</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="chk2">
+                    <label for="chk2">Back-end Project</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="chk3">
+                    <label for="chk3">Not Sure</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk4">
+                    <label for="chk4">Not Sure</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk5">
+                    <label for="chk5">Not Sure</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk6">
+                    <label for="chk6">Not Sure</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk7">
+                    <label for="chk7">Greetings</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk8">
+                    <label for="chk8">City meetups</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk9">
+                    <label for="chk9">Wiki</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk10">
+                    <label for="chk10">Forume</label>
+                </li> 
+                <li>
+                    <input type="checkbox" id="chk11">
+                    <label for="chk11">Additional Courses</label>
+                </li> 
+            </ul>
+        </div>
+
+    </div>
 
 
-</div>
 
 
+    </div>
 </body>
+
 </html>
