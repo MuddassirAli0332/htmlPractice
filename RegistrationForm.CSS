@@ -1,23 +1,35 @@
 body {
   background-color: #4F4F8D;
 }
+.NavBar {
+  width: 1014px;
+  height: 50px;
+  background-color: black;
+ 
+}
+.Heading {
+color: #ffffff;
+text-align: center;
+}
 
 .main {
   position: relative;
   width: 70%;
+  height: 970px;
   left: 15%;
-  top: 10%;
+  top: 1%;
   background-color: #272847;
 
 }
 
 .field {
-  padding: 10px;
+  padding: 15px;
   left:  20%;
-  border: 2 solid yellow;
+  margin-left: 20px;
 }
 
 .fieldLabel {
+
   color: white;
   display: block;
 }
@@ -26,4 +38,27 @@ body {
   list-style-type: none;
   color: #ffffff;
   padding: 0px;
+}
+.MsgBox {
+  display: inline-block;
+  width: 85%;
+  height: 70px;
+  margin-left: 35px;
+}
+.Message {
+  color: #ffffff;
+  display: block;
+  margin-left: 35px
+}
+.Btn
+{
+width: 83%; 	
+height: 40px;
+background-color: #008000;
+color: #fff;
+border: none;
+margin-top: 10px;
+margin-left: 40px;
+border-radius: 8px;
+border-bottom: 3px solid #036;
 }
